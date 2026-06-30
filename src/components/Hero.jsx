@@ -48,11 +48,14 @@ const Hero = () => {
         playsInline
         poster={heroPoster}
         onEnded={handleVideoEnded}
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        className="absolute top-0 left-0 w-full h-[75vh] md:h-full object-cover object-[center_10%] md:object-center z-0"
       >
         <source src={heroVideo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+
+      {/* Gradient Overlay to blend the video into the black background and improve text readability */}
+      <div className="absolute inset-0 z-10 bg-gradient-to-t from-black via-black/80 to-transparent md:via-black/20"></div>
 
       {/* Left Floating Social Bar for Large Screens */}
       <div className="hidden lg:flex flex-col gap-6 fixed left-6 top-1/2 -translate-y-1/2 z-50 mix-blend-difference">
