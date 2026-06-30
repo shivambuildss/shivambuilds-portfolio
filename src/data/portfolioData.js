@@ -238,6 +238,7 @@ export const projects = [
     links: {
       github: null,
       demo: "https://www.swarajdental.in/",
+      nightbucksDemo: "https://nightbucks.netlify.app/",
     },
     isFlagship: false,
   },

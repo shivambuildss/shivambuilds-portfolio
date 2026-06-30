@@ -90,6 +90,19 @@ const ProjectCard = ({ project, aosDelay }) => (
           </a>
         )}
 
+        {/* Nightbucks Demo */}
+        {project.links.nightbucksDemo && (
+          <a 
+            href={project.links.nightbucksDemo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-white text-sm font-semibold hover:bg-white hover:text-black transition-all duration-300"
+          >
+            <ExternalLinkIcon />
+            Nightbucks Demo
+          </a>
+        )}
+
         {/* Frontend Demo (Karigar) */}
         {project.links.frontendDemo && (
           <a 
