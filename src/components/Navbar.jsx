@@ -20,7 +20,7 @@ const Navbar = () => {
 
   const navLinks = ['Home', 'About', 'Skills', 'Projects', 'Contact'];
 
-  const hireMeMailto = `mailto:mdyusufcse096@iesuniversity.ac.in?subject=Hiring Inquiry – Portfolio&body=Hello Md Yusuf,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,`;
+  const hireMeLink = `https://wa.me/917057603460?text=Hi%20Shivam,%20I%20would%20like%20to%20discuss%20an%20opportunity%20with%20you.`;
 
   return (
     <nav 
@@ -59,7 +59,9 @@ const Navbar = () => {
         {/* Right Side: CTA Button */}
         <div className="hidden md:block">
           <a 
-            href={hireMeMailto}
+            href={hireMeLink}
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-6 py-2.5 rounded-full bg-white/10 border border-white/20 text-white font-semibold hover:bg-white/20 hover:shadow-[0_0_15px_rgba(255,255,255,0.2)] transition-all duration-300 backdrop-blur-md"
           >
             Hire Me
@@ -102,7 +104,9 @@ const Navbar = () => {
           ))}
           <div className="pt-4 pb-2">
              <a 
-               href={hireMeMailto}
+               href={hireMeLink}
+               target="_blank"
+               rel="noopener noreferrer"
                onClick={() => setIsOpen(false)} 
                className="inline-block px-6 py-3 rounded-full bg-white text-[#ff2a2a] font-black hover:bg-black hover:text-white transition-colors w-full text-center shadow-lg"
              >

@@ -1,296 +1,239 @@
 // ============================================================
-// portfolioData.js — Centralized configuration for Md Yusuf's Portfolio
+// portfolioData.js — Centralized configuration for Shivam Wankhede's Portfolio
 // All external links, personal info, and content in one place.
 // Update this file to change any content across the entire site.
 // ============================================================
 
 export const personalInfo = {
-  name: "Md Yusuf",
-  firstName: "Md Yusuf",
-  brandName: "Md Yusuf",
-  title: "Full Stack & Java Developer",
-  location: "Bhopal, India",
-  phone: "+91 99396-08743",
+  name: "Shivam Wankhede",
+  firstName: "Shivam",
+  brandName: "Shivam Wankhede",
+  title: "Web Developer & AI Automation Specialist",
+  location: "Chhatrapati Sambhaji Nagar, Maharashtra, India",
+  phone: "+91 8010773127",
   emails: {
-    primary: "mdyusufcse096@iesuniversity.ac.in",
-    secondary: "yusuf.rgpv@gmail.com",
+    primary: "shivamswankhede@gmail.com",
+    secondary: "shivamswankhede@gmail.com",
   },
   summary:
-    "Aspiring software engineer and motivated B.Tech Computer Science student with solid skills in Java, Spring Boot, React, and Python. Passionate about building scalable full-stack applications with clean architecture and modern tech stacks.",
-  resumeUrl: "/Md_Yusuf_Resume_2026.pdf",
+    "Passionate Web Developer and AI Automation Specialist with hands-on experience in building websites, AI chatbots, business automation systems, and lead generation solutions. Skilled in modern web technologies, AI agents, workflow automation, and digital marketing.",
+  resumeUrl: "/Shivam_Wankhede_Resume.pdf",
 };
 
 export const socialLinks = {
-  github: "https://github.com/mdyusuf0",
-  linkedin: "https://linkedin.com/in/mdyusuf0",
-  instagram: "https://instagram.com/heyyusuffff",
+  github: "#", // Replace with real GitHub link if available
+  linkedin: "https://www.linkedin.com/in/shivam-wankhede-3395173b5",
+  instagram: "#",
 };
 
 export const heroContent = {
-  greeting: "Hi, I'm Md Yusuf",
-  titleHighlight: "Full Stack & Java Developer",
+  greeting: "Hi, I'm Shivam",
+  titleHighlight: "Web Developer & AI Specialist",
   subtitle:
-    "I build fast, scalable applications using Java, Spring Boot, MERN Stack, and Python.",
+    "I solve real-world business problems through modern web technologies, AI agents, and workflow automation.",
   ctaPrimary: { text: "View My Work", href: "#projects" },
   ctaSecondary: {
     text: "Contact Me",
-    href: "mailto:mdyusufcse096@iesuniversity.ac.in?subject=Hiring Inquiry – Portfolio&body=Hello Md Yusuf,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
+    href: "mailto:shivamswankhede@gmail.com?subject=Hiring Inquiry – Portfolio&body=Hello Shivam,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
   },
-  ctaResume: { text: "Download Resume", href: "/Md_Yusuf_Resume_2026.pdf" },
+  ctaResume: { text: "Download Resume", href: "/Resume.pdf.png" },
 };
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Md Yusuf</span>, an aspiring software engineer based in Bhopal, India, dedicated to crafting clean, functional, and highly scalable full-stack applications.`,
-  techStack: ["Java", "Spring Boot", "MERN Stack"],
+  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Shivam Wankhede</span>, a Web Developer and AI Automation Specialist. I am dedicated to solving real-world business problems through technology and continuous learning, specializing in AI agents, workflow automation, and scalable web solutions.`,
+  techStack: ["React.js", "Node.js", "AI Automation"],
 };
 
 export const skillsContent = {
   badge: "My Process",
-  heading: "Here's how I turn ideas into real-world applications",
+  heading: "Here's how I solve business problems",
   description:
-    "I follow a structured, creative, and highly technical approach to turn ideas into robust full-stack applications.",
+    "I leverage modern web technologies and AI automation to streamline workflows and drive digital growth.",
   cards: [
     {
       number: "01",
-      title: "Research",
-      text: "I start by understanding goals, user requirements, and technical constraints to lay a rock-solid foundation for the project.",
+      title: "Strategy & Planning",
+      text: "Understanding business bottlenecks and planning tailored solutions using web technologies and AI.",
     },
     {
       number: "02",
-      title: "Design",
-      text: "Crafting clean architecture, intuitive interfaces, and pixel-perfect wireframes that guarantee an engaging and accessible user experience.",
+      title: "Web Development",
+      text: "Building responsive, modern websites and high-converting landing pages for seamless user experiences.",
     },
     {
       number: "03",
-      title: "Develop",
-      text: "Building scalable backends and responsive frontends using modern tech stacks and best practices.",
+      title: "AI & Automation",
+      text: "Developing AI receptionists, chatbots, and n8n workflows to automate repetitive tasks and save time.",
     },
     {
       number: "04",
-      title: "Deploy",
-      text: "Rigorous testing, performance optimization, and seamless deployment to cloud infrastructure, followed by ongoing support.",
+      title: "Growth & Marketing",
+      text: "Integrating CRM systems and running data-driven lead generation campaigns to scale businesses.",
     },
   ],
-  endText: "Ready to ship!",
+  endText: "Ready to build!",
 };
 
-// Brand New Technical Skills Data
 export const technicalSkills = {
   categories: [
     {
-      title: "Programming Languages",
+      title: "Web Development",
       skills: [
-        { name: "Java", level: 90 },
-        { name: "C++", level: 85 },
-        { name: "Python", level: 75 }
+        { name: "React.js", level: 90 },
+        { name: "Node.js & Express.js", level: 85 },
+        { name: "HTML5, CSS3, JavaScript", level: 95 },
+        { name: "REST APIs & Responsive Design", level: 90 }
       ]
     },
     {
-      title: "Full Stack",
+      title: "AI & Automation",
       skills: [
-        { name: "MERN Stack", level: 90 },
-        { name: "HTML", level: 95 },
-        { name: "CSS", level: 90 },
-        { name: "JavaScript", level: 92 }
+        { name: "Workflow Automation (n8n)", level: 92 },
+        { name: "AI Agent & Chatbot Development", level: 88 },
+        { name: "CRM Integration", level: 85 },
+        { name: "Prompt Engineering", level: 90 }
       ]
     },
     {
-      title: "Backend",
+      title: "Digital Marketing",
       skills: [
-        { name: "Spring Boot", level: 88 },
-        { name: "FastAPI", level: 75 },
-        { name: "REST APIs", level: 90 }
+        { name: "Meta (Facebook & Instagram) Ads", level: 90 },
+        { name: "Lead Generation", level: 95 },
+        { name: "Funnel Building", level: 88 },
+        { name: "Email Marketing", level: 85 }
       ]
     },
     {
-      title: "Databases",
+      title: "Tools & Platforms",
       skills: [
-        { name: "MongoDB", level: 88 },
-        { name: "MySQL", level: 85 },
-        { name: "Firebase", level: 80 }
-      ]
-    },
-    {
-      title: "Tools & Automation",
-      skills: [
-        { name: "Git & GitHub", level: 90 },
+        { name: "Git & GitHub", level: 85 },
         { name: "VS Code", level: 95 },
-        { name: "Postman", level: 88 },
-        { name: "n8n", level: 82 },
-        { name: "MongoDB Compass", level: 85 },
-        { name: "Antigravity", level: 80 },
-        { name: "Codex", level: 75 }
-      ]
-    },
-    {
-      title: "Computer Science Concepts",
-      skills: [
-        { name: "Data Structures", level: 88 },
-        { name: "Algorithms", level: 85 },
-        { name: "DBMS", level: 86 },
-        { name: "OOP", level: 90 },
-        { name: "Software Engineering", level: 84 }
+        { name: "GoHighLevel & Zoho CRM", level: 85 },
+        { name: "Notion & Google Workspace", level: 90 }
       ]
     }
   ]
 };
 
-// Brand New Content Creation Data
 export const contentCreation = {
-  badge: "Cinematic Content",
-  heading: "Creative Direction & Cinematic Edits",
-  description: "Beyond coding, I craft visual stories with premium editing, color grading, and creative pacing.",
+  badge: "Soft Skills & Languages",
+  heading: "Communication & Adaptability",
+  description: "I believe that strong communication and continuous learning are just as important as technical skills.",
   categories: [
     {
-      title: "Cinematic Reels",
-      description: "Visual stories crafted with cinematic lighting, premium color grading, and high-impact sound design.",
-      stats: "50+ Reels Created",
-      icon: "🎥"
+      title: "Problem Solving",
+      description: "Tackling complex business logic and automating repetitive tasks efficiently.",
+      stats: "Analytical",
+      icon: "🧩"
     },
     {
-      title: "Travel Videos",
-      description: "Immersive travel vlogs and aesthetic edits capturing cultures, landscapes, and visual rhythms.",
-      stats: "15+ Countries/Cities",
-      icon: "✈️"
+      title: "Team Collaboration",
+      description: "Working effectively with clients and cross-functional teams to deliver value.",
+      stats: "Collaborative",
+      icon: "🤝"
     },
     {
-      title: "Educational Reels",
-      description: "Fast-paced tech tutorials and educational content designed to simplify coding and software engineering.",
-      stats: "100k+ Views",
-      icon: "🧠"
+      title: "Time Management",
+      description: "Prioritizing tasks and meeting deadlines for multiple freelance projects.",
+      stats: "Efficient",
+      icon: "⏳"
     },
     {
-      title: "My Own Creative Edits",
-      description: "Experimental transitions, 3D overlays, and trendsetting visual effects that push creative bounds.",
-      stats: "Personal Projects",
-      icon: "⚡"
+      title: "Multilingual",
+      description: "Fluent in Hindi, Marathi (Native), and English (Professional Working Proficiency).",
+      stats: "3 Languages",
+      icon: "🗣️"
     }
   ]
 };
 
-// Brand New Leadership Data
 export const leadershipList = [
   {
-    title: "IEEE Madhya Pradesh Section (Social Media Team)",
-    description: "Managed and coordinated digital content, driving audience engagement and designing interactive visual campaigns for tech events.",
-    role: "Social Media Coordinator",
-    badge: "Volunteer"
+    title: "End-to-End Project Delivery",
+    description: "Successfully built and deployed multiple websites and AI solutions from scratch for small businesses.",
+    role: "Freelancer",
+    badge: "Delivery"
   },
   {
-    title: "Team Coordinator – Go-Kart International Racing 2K25",
-    description: "Led multi-disciplinary teams in project management, budget control, and logistics coordination for a high-profile international racing event.",
-    role: "Team Coordinator",
-    badge: "Leadership"
+    title: "Client Consultation",
+    description: "Advised businesses on digital marketing strategies and workflow automation to improve efficiency.",
+    role: "Consultant",
+    badge: "Consulting"
   },
   {
-    title: "5-Day MOE IDE Bootcamp, Roorkee",
-    description: "Participated in an intensive Innovation, Design, and Entrepreneurship Bootcamp organized by the Ministry of Education at IIT Roorkee.",
-    role: "Bootcamp Graduate",
-    badge: "Innovation"
-  },
-  {
-    title: "Hosted INFORIA Tech Summit Hackathon",
-    description: "Organized and hosted the flagship hackathon, managing registrations, mentoring participant teams, and coordinating judge evaluations.",
-    role: "Hackathon Organizer",
-    badge: "Co-Curricular"
-  },
-  {
-    title: "Event Coordinator & Anchoring – INFORIA 2K25",
-    description: "Coordinated technical events and served as the main stage anchor, speaking in front of large crowds and managing the summit flow.",
-    role: "Stage Anchor & Coordinator",
-    badge: "Public Speaking"
+    title: "Continuous Learning",
+    description: "Constantly upskilling in modern web frameworks, AI agent development, and marketing tech.",
+    role: "Developer",
+    badge: "Growth"
   }
 ];
 
-// Brand New Internships Data
 export const internshipsList = [
   {
-    organization: "Netlink, Bhopal",
-    role: "Data Analytics & BI Tools Intern",
-    duration: "June 2025 - August 2025",
-    skills: ["Data Analytics", "Business Intelligence", "Dashboard Design", "Data Modeling"],
-    tech: ["Lumenore", "MySQL", "Excel", "BI Tools"]
-  },
-  {
-    organization: "Canva",
-    role: "Visual Content Creator & Designer",
-    duration: "May 2024 - June 2024",
-    skills: ["Visual Designing", "Poster Design", "Team Branding", "Asset Creation"],
-    tech: ["Canva Pro", "Figma", "Canva Design Suite"]
-  },
-  {
-    organization: "CollegeTips.in",
-    role: "Web Development Intern",
-    duration: "1 Month (Offline)",
-    skills: ["Frontend Development", "Responsive Layouts", "API Testing", "Web Performance"],
-    tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap"]
+    organization: "Freelance",
+    role: "Web Developer & AI Automation Specialist",
+    duration: "2025 - Present",
+    skills: ["Web Development", "AI Chatbots", "n8n Workflows", "Lead Generation", "CRM Integration"],
+    tech: ["React.js", "Node.js", "AI APIs", "GoHighLevel"]
   }
 ];
 
-// Brand New Soft Skills Data
 export const softSkillsList = [
-  { name: "Leadership", icon: "👑", desc: "Guiding teams, managing tasks, and driving project completion with shared vision." },
-  { name: "Public Speaking", icon: "🎤", desc: "Confident stage presence, anchoring summits, and delivering articulate technical ideas." },
-  { name: "Team Collaboration", icon: "🤝", desc: "Collaborating across fields, building racing carts, and engineering code in sync." },
-  { name: "Communication", icon: "💬", desc: "Clear, concise, and structured interactions in both business and technical contexts." },
-  { name: "Problem Solving", icon: "🧩", desc: "Breaking down complex engineering tasks into clean, logical, and modular pieces." },
-  { name: "Adaptability", icon: "🌟", desc: "Quick to pick up new frameworks like FastAPI, Spring Boot, or automation tools like n8n." },
-  { name: "Creativity", icon: "🎨", desc: "Blending cinematic aesthetics with software structure to build premium experiences." },
-  { name: "Time Management", icon: "⏰", desc: "Balancing B.Tech studies, event hosting, and developing robust software platforms." }
+  { name: "Problem Solving", icon: "🧩", desc: "Finding innovative solutions to complex business workflows." },
+  { name: "Communication", icon: "💬", desc: "Clear, concise interactions in English, Hindi, and Marathi." },
+  { name: "Team Collaboration", icon: "🤝", desc: "Working seamlessly with stakeholders to build exactly what's needed." },
+  { name: "Time Management", icon: "⏰", desc: "Delivering high-quality projects on schedule." },
+  { name: "Adaptability", icon: "🌟", desc: "Quickly learning new AI tools and web technologies." },
+  { name: "Continuous Learning", icon: "📚", desc: "Staying updated with the rapidly evolving tech landscape." }
 ];
 
 export const projects = [
   {
-    id: "foodmesh",
+    id: "ai-receptionist",
     number: "01",
-    badge: "🚀 Flagship Project",
-    title: "FoodMesh",
+    badge: "🚀 AI Innovation",
+    title: "AI Receptionist for Dental Clinics",
     description:
-      "FoodMesh — An enterprise-grade multi-tenant restaurant management and food ordering SaaS platform inspired by UrbanPiper. It enables restaurants to manage multiple outlets, menus, inventory, customers, staff, and orders through a scalable architecture with secure authentication, role-based access control, and real-time operations. Built with React, Next.js, NestJS, PostgreSQL, Redis, Kafka, Elasticsearch, Docker, Kubernetes, and AWS.",
+      "Built an AI-powered receptionist system designed specifically for handling customer inquiries and booking appointments. Automated the lead capture and follow-up processes, significantly improving customer response times through AI automation.",
     techTags: [
-      "React",
-      "Next.js",
-      "NestJS",
-      "PostgreSQL",
-      "Redis",
-      "Kafka",
-      "Elasticsearch",
-      "Docker",
-      "Kubernetes",
-      "AWS",
+      "AI Chatbot",
+      "Lead Generation",
+      "CRM Integration",
+      "Automation"
     ],
     links: {
-      github: "https://github.com/ersamirsingh/UrbanPiper",
+      github: null,
       demo: null,
     },
     isFlagship: true,
   },
   {
-    id: "karigar",
+    id: "business-automation",
     number: "02",
     badge: null,
-    title: "Karigar",
+    title: "AI Automation Systems for Businesses",
     description:
-      "A platform connecting local skilled workers with customers, featuring real-time search, worker profiles, and booking management with full database integration.",
-    techTags: ["React", "Node.js", "MongoDB", "Express", "REST API"],
+      "Developed robust workflow automation solutions using n8n. Successfully integrated CRM systems and automated repetitive business tasks, directly reducing manual work and overhead through AI-driven processes.",
+    techTags: ["n8n", "Workflow Automation", "API Integration", "Business Logic"],
     links: {
-      github: "https://github.com/mdyusuf0/Karigar",
-      frontendDemo: "https://karigar-frontend.onrender.com",
-      backendApi: "https://karigar-zny2.onrender.com",
+      github: null,
+      frontendDemo: null,
+      backendApi: null,
     },
     isFlagship: false,
   },
   {
-    id: "sentiment-analysis",
+    id: "business-websites",
     number: "03",
     badge: null,
-    title: "AI-Powered Sentiment Analysis",
+    title: "Business Websites & Landing Pages",
     description:
-      "A full-stack web application that analyzes citizen feedback using Artificial Intelligence to classify sentiments as positive, negative, or neutral. Features a responsive React frontend, a Node.js backend, MongoDB for data storage, and n8n automation for workflow orchestration — enabling real-time insights and efficient feedback management.",
-    techTags: ["React", "Node.js", "MongoDB", "n8n", "AI/ML", "REST API"],
+      "Designed and developed highly responsive websites for various businesses. Focused on building high-converting landing pages for lead generation, implementing modern UI/UX principles for maximum engagement.",
+    techTags: ["React.js", "Responsive Design", "UI/UX", "Lead Gen"],
     links: {
-      github: "#", // Update when available
+      github: null,
+      demo: "https://www.swarajdental.in/",
     },
     isFlagship: false,
   },
@@ -299,61 +242,38 @@ export const projects = [
 export const certificates = {
   featured: [
     {
-      name: "Oracle Cloud Infrastructure 2025",
-      issuer: "Oracle",
-      icon: "☁️",
+      name: "AI Agent Development",
+      issuer: "Continuous Learning",
+      icon: "🤖",
     },
     {
-      name: "Programming in Java (94%)",
-      issuer: "NPTEL",
-      icon: "☕",
-    },
-    {
-      name: "C Programming & Assembly Language",
-      issuer: "NPTEL",
-      icon: "⚙️",
-    },
-    {
-      name: "Technology Job Simulation",
-      issuer: "Deloitte",
-      icon: "💼",
-    },
-    {
-      name: "Career Edge – IT Primer",
-      issuer: "TCS iON",
-      icon: "🎓",
-    },
-    {
-      name: "Fundamentals of BI & Analytics",
-      issuer: "Lumenore",
-      icon: "📊",
-    },
+      name: "Web Development Bootcamp",
+      issuer: "Self Taught",
+      icon: "💻",
+    }
   ],
-  viewAllUrl:
-    "https://drive.google.com/file/d/1ObdGWtVSx8SsfR4AcbCySSd9LFXcAs9f/view?usp=sharing",
+  viewAllUrl: "#",
 };
 
 export const education = {
-  degree: "B.Tech – Computer Science & Engineering",
-  institution: "IES College of Technology (RGPV)",
-  cgpa: "8.35",
-  graduation: "2027",
-  twelfth: "12th Science – 81%",
-  tenth: "10th CBSE – 70%",
+  degree: "AI Automation & Web Development",
+  institution: "Self-Taught & Freelance Experience",
+  cgpa: "N/A",
+  graduation: "Present",
+  twelfth: "Continuous Learner in AI Technologies",
+  tenth: "Dedicated to solving real-world problems",
 };
 
 export const footerContent = {
   taglines: [
-    "Software Engineering & Web Dev",
-    "Java · Spring Boot · React",
-    "Full Stack Applications",
+    "Web Development · AI Agents",
+    "n8n Automation · CRM",
+    "Lead Generation & Ads",
   ],
-  credential: "B.Tech CSE · CGPA 8.35",
-  copyright: `© ${new Date().getFullYear()} Md Yusuf | Built with React`,
+  credential: "AI Automation Specialist",
+  copyright: `© ${new Date().getFullYear()} Shivam Wankhede | Built with React`,
 };
 
-// EmailJS Configuration
-// Will read directly from environment variables in Vite (starting with VITE_)
 export const emailjsConfig = {
   serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID || "YOUR_EMAILJS_SERVICE_ID",
   templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "YOUR_EMAILJS_TEMPLATE_ID",
