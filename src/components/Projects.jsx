@@ -116,6 +116,31 @@ const ProjectCard = ({ project, aosDelay }) => (
           </a>
         )}
       </div>
+
+      {/* Project Videos */}
+      {project.videos && project.videos.length > 0 && (
+        <div className="mt-8 flex flex-col md:flex-row gap-4">
+          {project.videos.map((videoPath, idx) => (
+            <div key={idx} className="flex-1 rounded-xl overflow-hidden border border-white/10 bg-black/50">
+              <video 
+                src={videoPath} 
+                controls 
+                loop 
+                playsInline
+                onPlay={(e) => {
+                  const videos = document.querySelectorAll('video');
+                  videos.forEach(vid => {
+                    if (vid !== e.target) {
+                      vid.pause();
+                    }
+                  });
+                }}
+                className="w-full h-auto object-contain rounded-xl"
+              />
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   </div>
 );

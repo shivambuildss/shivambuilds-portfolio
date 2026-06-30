@@ -21,9 +21,9 @@ export const personalInfo = {
 };
 
 export const socialLinks = {
-  github: "#", // Replace with real GitHub link if available
+  github: "https://github.com/shivambuildss",
   linkedin: "https://www.linkedin.com/in/shivam-wankhede-3395173b5",
-  instagram: "#",
+  instagram: "https://www.instagram.com/shivam.buildss/",
 };
 
 export const heroContent = {
@@ -206,6 +206,10 @@ export const projects = [
       github: null,
       demo: null,
     },
+    videos: [
+      "/ai-receptionist-1.mp4",
+      "/ai-receptionist-2.mp4"
+    ],
     isFlagship: true,
   },
   {
